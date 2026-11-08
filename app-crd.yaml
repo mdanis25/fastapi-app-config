@@ -14,4 +14,5 @@ spec:
     namespace: app-ns
   syncPolicy: 
     automated:
-      prune: true 
+      prune: true  
+      selfHeal: true
