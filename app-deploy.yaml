@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: fastapi-app-deploy  
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: fastapi-app
