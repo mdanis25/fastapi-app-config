@@ -11,5 +11,6 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
-    namespace: fastapi-app
-  
+    namespace: app-ns
+  syncPolicy: 
+    automated: {}
